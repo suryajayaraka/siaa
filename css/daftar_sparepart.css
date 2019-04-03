@@ -1,0 +1,86 @@
+body{
+    background-color: #EEEEEF;
+    
+    }
+    
+    p.judul {
+    
+        color: #0A618C;
+        font-size: 150%;
+    }
+    
+    fieldset {
+    
+        border: 3px solid #0A618C;
+        width: 80%;
+    
+        position: relative;
+        left: 100px;
+        
+    }
+    
+    legend {
+    
+        font-size: 110%;
+        color: #0A618C;
+    }
+    
+    p2 {
+        color: #0A618C;
+    }
+    
+    input, select, radio{
+        width: 220%;
+        padding: 8px 20px;
+        margin: 8px 0;
+        background-color: white;
+        display: inline-block;
+        border: 1px solid #0A618C;
+        border-radius: 5px;
+        box-sizing: border-box;
+        }
+    
+    input[type=submit] {
+        width: 10%;
+        background-color: #00af4f;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        left: 920px;
+        }
+        
+        input.kedua[type=submit] {
+            width: 10%;
+            background-color: red;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+            left: 685px;
+            }
+        
+    input[type=submit]:hover {
+        background-color: #0A618C;
+        }
+    
+    .button {
+            background-color: #0A618C;
+            border: none;
+            color: white;
+            padding: 5px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer; 
+            position: relative;
+            left: 1100px;
+    }

@@ -1,0 +1,168 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+.tabel{
+
+    height: 100%;
+}
+
+.content {
+    color: white;
+}
+
+.link {
+
+    color: black;
+}
+
+
+/* Style tab links */
+.tablink {
+    background-color: #0A618C;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+}
+
+
+.tablink:hover {
+    background-color: #23394C;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Pegawai {background-color: white;}
+#Sparepart {background-color: white;}
+#Supplier {background-color: white;}
+#Jasa_Service {background-color: white;}
+#Pelanggan {background-color: white;}
+
+/*css-tampilan*/
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+.pesan {
+
+    padding: 60px 20px;
+}
+
+.next {
+
+    color: white;
+}
+
+
+input[type=submit] {
+    width: 30%;
+    background-color: #50846e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 115px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+.mySlides {
+        display:none;
+    }
+
+p {
+
+    color: #0A618C;
+    font-size: 150%;
+}
+
+.button {
+    background-color: #FDD100;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+  }
+
+.button2 {
+    background-color: #0A618C;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer; 
+    float: right;
+}
+
+input, select, radio{
+	width: 20%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #0A618C;
+    box-sizing: border-box;
+    float: right;
+	}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #0A618C;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    float: right;
+	}
+
+/*table-isi*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: black;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
